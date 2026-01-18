@@ -1,0 +1,9 @@
+.btn_bg_clr{
+    background: linear-gradient(to right, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+}
+@media screen and (max-width:576px) {
+    .nav_menu,
+    .nav_subcribe{
+        display: none;
+    }
+}

@@ -12,48 +12,50 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="font-[inter]">
-    <header class="bg-[#1A0B2E] text-[#FFFFFF] py-[30px]">
+    <header class="bg-[#1A0B2E] text-[#FFFFFF]  ">
 
         <!-- nav part start here -->
-        <nav class="flex md:flex md:justify-between md:items-center w-[69%] m-auto">
+        <nav class="flex justify-between items-center  md:flex md:justify-between md:items-center md:w-[69%] md:m-auto md:py-[30px] p-4 md:p-0">
             <div class="logo">
                 <img src="./assets/TechWave.png" alt="">
             </div>
-            <div>
-                <ul class="flex gap-8  font-medium">
-                    <li><a href="">About</a></li>
-                    <li><a href="">Episode</a></li>
-                    <li><a href="">Host</a></li>
+            <div class="nav_menu">
+                <ul class="flex gap-8">
+                    <li class="font-semibold"><a href="">About</a></li>
+                    <li class="font-semibold"><a href="">Episode</a></li>
+                    <li class="font-semibold"><a href="">Host</a></li>
                 </ul>
             </div>
-            <div class=" border rounded-full px-6 py-3">
-                <button>Subcribe <a href=""><i class="fa-solid fa-arrow-right"></i></a></button>    
+            <div class="btn_bg_clr nav_subcribe  rounded-full px-6 py-3">
+                <button><span class="font-semibold">Subcribe</span> <a href=""><i class="fa-solid fa-arrow-right"></i></a></button>    
             </div>
-            <div class="md:hidden">
+            <div class="sm:hidden">
                 <img src="./assets/hamburger-menu.png" alt="">
             </div>
         </nav>
         <!-- nav part end here -->
         <!-- hero part start here -->
-        <section class="bg-[url(./assets/hero-bg.png)] bg-no-repeat bg-cover ">
+        <section class="bg-[url(./assets/hero-bg.png)] bg-no-repeat  bg-cover bg-center py-10 md:py-[100px] ">
             <!-- hero content -->
-            <div class="flex justify-center pt-30">
-                <img class=" md:w-[350px]" src="./assets/hero-circle.png" alt="">
-                <div class="absolute pt-20">
-                    <img src="./assets/microphone.png" alt="">
+            <div class="flex justify-center pt-10 md:pt-0">
+                <div>
+                    <img class="w-[200px] h-[200px] md:w-[350px] md:h-[350px]" src="./assets/hero-circle.png" alt="">
+                </div>
+                <div class="absolute py-15 md:py-18 " >
+                    <img class="w-20 h-20 md:w-[200px] md:h-[200px]" src="./assets/microphone.png" alt="">
                 </div>
             </div>
-            <div class="text-center pt-10">
-                <h3 class="text-[60px] font-extrabold">TechWave</h3>
+            <div class="text-center pt-10 mx:px-0 px-4">
+                <h3 class="text-[40px] md:text-[60px] font-extrabold">TechWave</h3>
                 <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
             </div>
-            <div class="flex justify-center gap-2 mt-6">
-                <div class="flex justify-center  px-5 py-3 rounded-full gap-2  border">
-                    <img src="./assets/spotify.png" alt="">
+            <div class="flex justify-center gap-4 mt-6 px-8 md:px-0">
+                <div class="btn_bg_clr flex justify-center items-center  px-5 py-3 rounded-full gap-2  border">
+                    <img class="w-5 h-5" src="./assets/spotify.png" alt="">
                     <h4>Listen on Spotify </h4>
                 </div>
-                <div class="flex justify-center  px-5 py-3 rounded-full gap-2  border border-[#00FF88]">
-                    <img src="./assets/message.png" alt="">
+                <div class="flex justify-center items-center  px-5 py-3 rounded-full gap-2  border border-[#00FF88]">
+                    <img class="w-5 h-5" src="./assets/message.png" alt="">
                     <h4 class="text-[#00FF88] font-semibold">Subcription</h4>
                 </div>
             </div>
