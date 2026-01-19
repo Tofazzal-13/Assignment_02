@@ -1,3 +1,42 @@
+.hero_transition,
+.btn,
+.mircrophone,
+.sub_btn
+    {
+    transition: transform 1s ease-in-out  ;
+    -webkit-transition: transform 1s ease-in-out  ;
+    -moz-transition: transform 1s ease-in-out  ;
+    -ms-transition: transform 1s ease-in-out  ;
+    -o-transition: transform 1s ease-in-out  ;
+    }
+.mircrophone:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+.hero_transition:hover{
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  -o-transform: scale(0.75);
+}
+.sub_btn:hover{
+    transform: translate(20px) scale(1.25);
+    -webkit-transform: translate(20px) scale(1.25);
+    -moz-transform: translate(20px) scale(1.25);
+    -ms-transform: translate(20px) scale(1.25);
+    -o-transform: translate(20px) scale(1.25);
+}
+.btn:hover{
+    transform: translate(-20px) scale(1.25);
+    -webkit-transform: translate(-20px) scale(1.25);
+    -moz-transform: translate(-20px) scale(1.25);
+    -ms-transform: translate(-20px) scale(1.25);
+    -o-transform: translate(-20px) scale(1.25);
+}
 .btn_bg_clr{
     background: linear-gradient(to right, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
 }
