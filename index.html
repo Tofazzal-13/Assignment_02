@@ -21,9 +21,9 @@
             </div>
             <div class="nav_menu">
                 <ul class="flex gap-8">
-                    <li class="font-semibold"><a href="">About</a></li>
-                    <li class="font-semibold"><a href="">Episode</a></li>
-                    <li class="font-semibold"><a href="">Host</a></li>
+                    <li class="font-semibold"><a href="#about">About</a></li>
+                    <li class="font-semibold"><a href="#episode">Episode</a></li>
+                    <li class="font-semibold"><a href="#host">Host</a></li>
                 </ul>
             </div>
             <div class="btn_bg_clr nav_subcribe  rounded-full px-6 py-3">
@@ -38,12 +38,17 @@
         <section class="bg-[url(./assets/hero-bg.png)] bg-no-repeat  bg-cover bg-center py-10 md:py-[100px] ">
             <!-- hero content -->
             <div class="flex justify-center pt-10 md:pt-0">
-                <div>
+                <div class="relative">
                     <img class="w-[200px] h-[200px] md:w-[350px] md:h-[350px]" src="./assets/hero-circle.png" alt="">
+                    <div class="absolute bg-[#00FF88] text-[#1A0B2E] px-4 py-2 rounded-2xl top-[10px] right-[-25px] md:top-4 md:right-4">
+                        <p class="text-[18px] font-semibold uppercase">new</p>
+                    </div>
+                    <div class="absolute top-[50px] right-[60px] md:top-[65px] md:right-[75px]" >
+                        <img class="w-20 h-20 md:w-[200px] md:h-[200px]" src="./assets/microphone.png" alt="">
+                    </div>
                 </div>
-                <div class="absolute py-15 md:py-18 " >
-                    <img class="w-20 h-20 md:w-[200px] md:h-[200px]" src="./assets/microphone.png" alt="">
-                </div>
+               
+               
             </div>
             <div class="text-center pt-10 mx:px-0 px-4">
                 <h3 class="text-[40px] md:text-[60px] font-extrabold">TechWave</h3>
@@ -62,7 +67,7 @@
         </section>
         <!-- hero part end here -->
         <!-- about podcast part start here -->
-        <section class="md:w-[69%] md:m-auto md:pt-[50px] ">
+        <section class="md:w-[69%] md:m-auto md:pt-[50px]" id="about">
             <div class="text-center">
                 <div class="mx-4 md:mx-0">
                     <h2 class="text-[32px] md:text-5xl font-bold pb-4">About the Podcast</h2>
@@ -141,7 +146,7 @@
         </section>
         <!-- Choose TechWave part end here -->
         <!-- feature episodes part start here -->
-        <section class="bg-[#1A0B2E] text-[#FFFFFF]">
+        <section id="episode" class="bg-[#1A0B2E] text-[#FFFFFF]">
             <div class="md:w-[69%] mx-8 md:m-auto py-10 md:py-30 ">
                 <h2 class="text-center text-3xl md:text-5xl font-bold pb-6 md:pb-10">Featured Episodes</h2>
                 <!-- feature card -->
@@ -184,7 +189,7 @@
         </section>
         <!-- feature episodes part end here -->
         <!-- meet host part start here -->
-        <section class="bg-[#1A0B2E] text-[#FFFFFF]">
+        <section id="host" class="bg-[#1A0B2E] text-[#FFFFFF]">
             <div class="md:w-[69%] mx-8 md:m-auto pb-10 md:pb-30">
                 <h2 class="text-center text-3xl md:text-5xl font-bold pb-6  md:pb-10">Meet the Host</h2>
                 
