@@ -1,7 +1,9 @@
 .hero_transition,
 .btn,
-.mircrophone,
-.sub_btn
+.microphone,
+.sub_btn,
+.feature_card
+
     {
     transition: transform 1s ease-in-out  ;
     -webkit-transition: transform 1s ease-in-out  ;
@@ -9,7 +11,7 @@
     -ms-transition: transform 1s ease-in-out  ;
     -o-transition: transform 1s ease-in-out  ;
     }
-.mircrophone:hover{
+.microphone:hover{
     transform: scale(1.5);
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
@@ -37,12 +39,20 @@
     -ms-transform: translate(-20px) scale(1.25);
     -o-transform: translate(-20px) scale(1.25);
 }
+
+.feature_card:hover{
+    transform: scale(1.20);
+    -webkit-transform: scale(1.20);
+    -moz-transform: scale(1.20);
+    -ms-transform: scale(1.20);
+    -o-transform: scale(1.20);
+}
 .btn_bg_clr{
     background: linear-gradient(to right, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
 }
 @media screen and (max-width:576px) {
     .nav_menu,
-    .nav_subcribe{
+    .nav_subscribe{
         display: none;
     }
 }
